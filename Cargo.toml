@@ -2,9 +2,8 @@
 name = "nomen"
 version = "0.1.0"
 edition = "2024"
-version = "0.1.0"
 authors = ["Jack Roddy <jack.w.roddy@gmail.com>"]
-repository = "https://github.com/jackroddy/nomenn"
+repository = "https://github.com/jackroddy/nomen"
 license = "MIT OR Apache-2.0"
 description = "nomen is a TUI application for helping name software."
 
