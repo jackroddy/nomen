@@ -2,16 +2,16 @@
 name = "nomen"
 version = "0.1.0"
 edition = "2024"
+version = "0.1.0"
+authors = ["Jack Roddy <jack.w.roddy@gmail.com>"]
+repository = "https://github.com/jackroddy/nomenn"
+license = "MIT OR Apache-2.0"
+description = "nomen is a TUI application for helping name software."
+
 
 [dependencies]
-# ureq backs src/registry.rs. The search engine itself stays pure: generate()
-# does no I/O, and availability is looked up separately by the caller.
 ureq = "3.4"
-# src/snapshot.rs streams the crates.io database dump: gzip, then tar. Only
-# the first ~356 MB of the 1815 MB archive is read, since the two files it
-# needs sit before the multi-GB version tables.
 flate2 = "1.1"
 tar = "0.4"
-# the TUI, which is the only frontend
 ratatui = "0.30"
 crossterm = "0.29"
