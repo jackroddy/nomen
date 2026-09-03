@@ -1,0 +1,14 @@
+# Build artifacts
+/target
+
+# macOS
+.DS_Store
+
+# Editors and tooling
+*.swp
+*.rs.bk
+
+# Corpus sources, downloaded by tooling/fetch.sh. ~2.5 GB, and every one of
+# them is fetched from a URL the tooling records.
+/tooling/work
+
